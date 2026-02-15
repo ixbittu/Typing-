@@ -173,3 +173,4 @@ async def get_thumb(videoid):
         fallback = await _get_fallback_thumb_local()
 
         return fallback
+
