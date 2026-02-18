@@ -66,7 +66,8 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
+        InlineKeyboardButton(text="• ᴍαɢɪᴄ ✨•", url="https://t.me/ytxmusic_bot?start=_tgr_JCUTUrY0YjQ1")],
     ]
     return buttons
 
