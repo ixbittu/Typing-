@@ -133,7 +133,7 @@ async def get_thumb(videoid):
         draw.line((150, 660, 1130, 660), width=6, fill=bar_color)
         # Recreation Music text at right side of center thumbnail
         rec_font = safe_font("ShrutixMusic/assets/font.ttf", 40)
-        rec_text = "Recreation Music"
+        rec_text = "ROSSY MUSIC"
         bbox = draw.textbbox((0, 0), rec_text, font=rec_font)
         rec_text_w = bbox[2] - bbox[0]
         rec_text_h = bbox[3] - bbox[1]
@@ -150,5 +150,6 @@ async def get_thumb(videoid):
         return final_path
     except Exception:
         return YOUTUBE_IMG_URL
+
 
 
