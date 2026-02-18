@@ -4,7 +4,7 @@
 import os
 import re
 import textwrap
-import ShrutixMusic as np
+import numpy as np
 import aiofiles
 import aiohttp
 from PIL import (
@@ -150,4 +150,5 @@ async def get_thumb(videoid):
         return final_path
     except Exception:
         return YOUTUBE_IMG_URL
+
 
