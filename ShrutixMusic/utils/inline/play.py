@@ -67,7 +67,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
-        InlineKeyboardButton(text="⌯ ʌᴅᴅ ϻє ⌯", url="https://t.me/Rossy_musicbot?startgroup=true")],
+        InlineKeyboardButton(text="⌯ ʌᴅᴅ ϻє ⌯", url="https://t.me/RadhaX_music_Bot?startgroup=true")],
     ]
     return buttons
 
@@ -82,7 +82,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
-        InlineKeyboardButton(text="⌯ ʌᴅᴅ ϻє ⌯", url="https://t.me/Rossy_musicbot?startgroup=true")],
+        InlineKeyboardButton(text="⌯ ʌᴅᴅ ϻє ⌯", url="https://t.me/RadhaX_music_Bot?startgroup=true")],
     ]
     return buttons
 
